@@ -1,0 +1,29 @@
+@page
+{
+    size: a4;
+    margin:0;
+}
+.navbar{
+    display: none;
+    visibility: none;
+}
+.non-printable{
+    display: none;
+    visibility: none;
+}
+#printbutton{
+    display: none;
+    visibility: none;
+}
+#dataTable_wrapper > div:nth-child(1){
+    display: none;
+    visibility: none;
+}
+#dataTable_wrapper > div:nth-child(3){
+    display: none;
+    visibility: none;    
+}
+.sidebar{
+    display: none;
+    visibility: none;  
+}
